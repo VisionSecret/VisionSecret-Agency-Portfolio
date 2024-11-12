@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: anzo1;
+  src: url(/src/assets/file.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(/src/assets/file2.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(/src/assets/file3.woff2);
+}
+@font-face {
+  font-family: anzo4;
+  src: url(/src/assets/file4.woff2);
+}
+
+@font-face {
+  font-family: alag anzo;
+  src: url(/src/assets/madefor-text.var.original.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+#section2{
+    position: relative;
+    perspective: 2000px;
+    z-index: 10;
+}
+
+#section3{
+    position: relative;
+    perspective: 1500px;
+}
+
+#titleDiv{
+    width: fit-content;
+}
+
+#rotateText{
+  transform-origin: 100% 70%;
+}
+#nextText{
+  transform-origin: 100% 70%;
+}
