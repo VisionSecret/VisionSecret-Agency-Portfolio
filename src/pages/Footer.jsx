@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="relative h-screen w-full p-2 sm:p-4 bg-white text-white overflow-hidden">
       <div className="h-full w-full rounded-2xl sm:rounded-[25px] overflow-hidden">
         <img
-          className="h-full object-cover"
+          className="h-full w-full object-cover"
           src="/images/footerBg.webp"
           alt="footer"
         />
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="centerText w-full sm:w-[37%] absolute top-[70%] left-[60%] -translate-x-[60%] -translate-y-[70%] z-50">
         <div className="content flex items-center sm:justify-between w-full">
-          <div id="bannerCircle" className="w-1/5 sm:w-full ml-4 sm:ml-0">
+          <div id="bannerCircle" className="w-1/5 sm:w-fit ml-4 sm:ml-0">
             <img
               src="/images/footerLogo.webp"
               alt=""
@@ -40,7 +40,7 @@ const Footer = () => {
             />
           </div>
           <div className="line h-24 w-0.5 mr-2 sm:mr-0 bg-white"></div>
-          <div className="Text w-3/4 sm:w-full ml-1.5 sm:ml-0">
+          <div className="Text w-3/4 sm:w-fit ml-1.5 sm:ml-0">
             <h2 className="text-xs sm:text-lg font-[anzo3] font-bold text-[#686868]">
               WORLD SERVICE
             </h2>
