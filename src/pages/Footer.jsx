@@ -26,7 +26,7 @@ const Footer = () => {
         <h1 className="flex flex-col sm:flex-row absolute top-16 left-5 sm:top-[7%] sm:left-20 text-[40vw] sm:text-[20vw] uppercase leading-[31vw] sm:leading-[20vw] font-[anzo2]">
           Got <br /> <span className="text-[#9B9B9B]">an</span>
         </h1>
-        <h1 className="absolute top-64 sm:top-[35%] left-5 sm:left-20 text-[40vw] sm:text-[20vw] uppercase leading-[38vw] sm:leading-[24vw] font-[anzo2]">
+        <h1 className="absolute top-64 sm:top-[35%] left-5 sm:left-20 text-[40vw] sm:text-[20vw] uppercase leading-[40vw] sm:leading-[24vw] font-[anzo2]">
           Idea
         </h1>
       </div>

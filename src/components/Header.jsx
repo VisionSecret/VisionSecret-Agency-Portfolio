@@ -34,7 +34,7 @@ const Header = () => {
       <div className="w-full flex items-center justify-end">
         <button
           onClick={() => handleHireMeClick()}
-          className="shadow-sm shadow-black animate-pulse px-5 py-1.5 sm:px-12 sm:py-3 border-4 border-gray-100 font-[anzo1] bg-zinc-900 hover:bg-[#d2d2d2] hover:text-zinc-800 hover:underline rounded-full text-sm cursor-pointer transition-colors duration-500"
+          className="shadow-sm shadow-black animate-pulse px-6 py-1.5 sm:px-12 sm:py-3 border-4 sm:border-[5px] border-gray-100 font-[anzo1] bg-zinc-900 hover:bg-[#d2d2d2] hover:text-zinc-800 hover:underline rounded-full text-sm cursor-pointer transition-colors duration-500"
         >
           Hire me
         </button>
