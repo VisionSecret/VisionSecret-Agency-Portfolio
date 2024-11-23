@@ -13,7 +13,7 @@ const Page8 = () => {
       ease: "linear",
       scrollTrigger: {
         trigger: ".WorkPage",
-        start: window.innerWidth < 760 ? "top 20%" : "top 25%",
+        start: window.innerWidth < 760 ? "top 22%" : "top 25%",
         end: "top -100%",
         scrub: true,
         ease: "none",
@@ -25,7 +25,7 @@ const Page8 = () => {
       ease: "linear",
       scrollTrigger: {
         trigger: ".WorkPage",
-        start: window.innerWidth < 760 ? "top 13%" : "top 20%",
+        start: window.innerWidth < 760 ? "top 20%" : "top 20%",
         end: "top -100%",
         scrub: true,
         ease: "none",
@@ -67,7 +67,7 @@ const Page8 = () => {
   });
 
   return (
-    <div className="WorkPage min-h-[140vh] w-full p-2 sm:p-4 bg-white text-white overflow-hidden">
+    <div className="WorkPage min-h-[94vh] w-full p-2 sm:p-4 bg-white text-white overflow-hidden">
       <div className="relative h-full w-full bg-black rounded-2xl sm:rounded-[25px] sm:flex overflow-hidden">
         <div className="sm:flex flex-col justify-between h-fit sm:h-full sm:w-[40%] p-7 sm:px-14 sm:py-8">
           <div className="textDiv relative">
