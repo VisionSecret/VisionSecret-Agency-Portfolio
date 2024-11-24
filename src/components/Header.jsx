@@ -21,7 +21,7 @@ const Header = () => {
     setSlideMsg(true);
     setTimeout(() => {
       window.location.href =
-        "mailto:alihassanr636@gmail.com?subject=Hire Me&body=I am interested in hiring you for a project. Please let me know how we can proceed.";
+        "mailto:ansali251@gmail.com?subject=Hire Me&body=I am interested in hiring you for a project. Please let me know how we can proceed.";
     }, 3000);
   };
 

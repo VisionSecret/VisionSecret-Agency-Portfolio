@@ -30,7 +30,7 @@ const Footer = () => {
           Idea
         </h1>
       </div>
-      <div className="centerText w-full sm:w-[37%] absolute top-[70%] left-[60%] -translate-x-[60%] -translate-y-[70%] z-20">
+      <div className="centerText ml-6 sm:ml-0 w-full sm:w-[37%] absolute top-[70%] left-[60%] -translate-x-[60%] -translate-y-[70%] z-20">
         <div className="content flex items-center sm:justify-between w-full">
           <div id="bannerCircle" className="w-1/5 sm:w-fit ml-4 sm:ml-0">
             <img
@@ -40,12 +40,12 @@ const Footer = () => {
             />
           </div>
           <div className="line h-24 w-0.5 mr-2 sm:mr-0 bg-white"></div>
-          <div className="Text w-3/4 sm:w-fit ml-1.5 sm:ml-0">
+          <div className="TextArea w-3/4 sm:w-fit ml-1.5 sm:ml-2">
             <h2 className="text-xs sm:text-lg font-[anzo3] font-bold text-[#686868]">
-              WORLD SERVICE
+              Global Reach, Local Impact
             </h2>
-            <h2 className="text-[10px] sm:text-lg font-[anzo1] leading-4 sm:leading-6">
-              I CAN COME TO WHEREVER YOU ARE.
+            <h2 className="text-[10px] sm:text-sm font-[alag anzo] leading-4 sm:leading-6 underline">
+              Bringing Solutions to You, No Matter Where You Are.
             </h2>
             <a
               href="tel:+923096448573"

@@ -12,6 +12,7 @@ import Footer from "./pages/Footer";
 import Page8 from "./pages/Page8";
 import Cursor from "./pages/Cursor";
 import { useEffect, useState } from "react";
+import Social from "./components/Social";
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,7 @@ function App() {
       <Page8 />
       <Footer />
       <Cursor xVal={xVal} yVal={yVal} />
+      <Social />
     </div>
   );
 }
