@@ -11,7 +11,7 @@ const Social = () => {
           rel="noopener noreferrer"
           className="text-2xl font-light flex items-center"
         >
-          <i className="w-10 h-10 text-white bg-[#0A66C2] hover:fill-blue-700 flex items-center justify-center rounded-md mr-2 ri-linkedin-fill"></i>
+          <i className="w-10 h-10 text-white bg-[#0A66C2] flex items-center justify-center rounded-md mr-2 ri-linkedin-fill"></i>
         </a>
 
         {/* Whatsapp Link */}
@@ -21,7 +21,7 @@ const Social = () => {
           rel="noopener noreferrer"
           className="text-2xl font-light flex items-center"
         >
-          <i className="w-10 h-10 text-white bg-[#25D366] hover:fill-green-500 flex items-center justify-center rounded-md mr-2 ri-whatsapp-line"></i>
+          <i className="w-10 h-10 text-white bg-[#25D366] flex items-center justify-center rounded-md mr-2 ri-whatsapp-line"></i>
         </a>
         {/* Mail Link */}
         <a
@@ -30,7 +30,16 @@ const Social = () => {
           rel="noopener noreferrer"
           className="text-2xl font-light flex items-center"
         >
-          <i className="w-10 h-10 text-white bg-[#D14836] hover:fill-red-500 flex items-center justify-center rounded-md mr-2 ri-mail-fill"></i>
+          <i className="w-10 h-10 text-white bg-[#D14836] flex items-center justify-center rounded-md mr-2 ri-mail-fill"></i>
+        </a>
+        {/* Github Link */}
+        <a
+          href="https://github.com/VisionSecret"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl font-light flex items-center"
+        >
+          <i className="w-10 h-10 text-white bg-[#2a2a2a] flex items-center justify-center rounded-md mr-2 ri-github-fill"></i>
         </a>
         {/* Behance Link */}
         <a
@@ -39,7 +48,7 @@ const Social = () => {
           rel="noopener noreferrer"
           className="text-2xl font-light flex items-center"
         >
-          <i className="w-10 h-10 text-white bg-[#1769FF] hover:fill-blue-500 flex items-center justify-center rounded-md mr-2 ri-behance-fill"></i>
+          <i className="w-10 h-10 text-white bg-[#1769FF] flex items-center justify-center rounded-md mr-2 ri-behance-fill"></i>
         </a>
       </div>
     </div>
