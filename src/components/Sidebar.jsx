@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({ setIsSidebar }) => {
   useGSAP(() => {
@@ -55,46 +56,46 @@ const Sidebar = ({ setIsSidebar }) => {
       </div>
       <ul className="m-8 flex flex-col gap-4 items-start justify-center h-[70%] w-full">
         <li className="mb-4">
-          <a
-            href="/story"
-            className="text-5xl text-gray-700 hover:text-gray-900 transition-all duration-300 font-[anzo3]"
+          <Link
+            to="/"
+            className="text-5xl text-gray-700 hover:text-gray-900 hover:ml-3 transition-all duration-300 font-[anzo3]"
           >
             Home
-          </a>
+          </Link>
           <div className="line border-b-[3px] border-gray-700"></div>
         </li>
         <li className="mb-4">
-          <a
-            href="/about"
-            className="text-5xl text-gray-700 hover:text-gray-900 transition-all duration-300 font-[anzo3]"
+          <Link
+            to="/about"
+            className="text-5xl text-gray-700 hover:text-gray-900 hover:ml-3 transition-all duration-300 font-[anzo3]"
           >
             About
-          </a>
+          </Link>
           <div className="line border-b-[3px] border-gray-700"></div>
         </li>
-        <li className="mb-4">
-          <a
-            href="/work"
+        {/* <li className="mb-4">
+          <Link
+            to="/work"
             className="text-5xl text-gray-700 hover:text-gray-900 transition-all duration-300 font-[anzo3]"
           >
             Work
-          </a>
+          </Link>
           <div className="line border-b-[3px] border-gray-700"></div>
-        </li>
+        </li> */}
         <li className="mb-4">
-          <a
-            href="/contact"
-            className="text-5xl text-gray-700 hover:text-gray-900 transition-all duration-300 font-[anzo3]"
+          <Link
+            to="/contact"
+            className="text-5xl text-gray-700 hover:text-gray-900 hover:ml-3 transition-all duration-300 font-[anzo3]"
           >
             Contact
-          </a>
+          </Link>
           <div className="line border-b-[3px] border-gray-700"></div>
         </li>
       </ul>
 
       <div className="copyright text-black text-[4vw] font-semibold sm:text-[1vw] text-center font-[alag anzo] px-3 pb-6">
-        {/* © vS.agency 2024 to 2025 | designed and developed */}
-        © Ans.Studio 2024 to 2025 | designed and developed.
+        {/* © vS.agency 2024 to 2025 | designed and developed */}© Ans.Studio
+        2024 to 2025 | designed and developed.
       </div>
     </div>
   );

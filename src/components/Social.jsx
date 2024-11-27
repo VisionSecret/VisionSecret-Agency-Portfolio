@@ -1,8 +1,18 @@
 import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Social = () => {
+  useGSAP(() => {
+    gsap.to(".socialContainer", {
+      x: -3,
+      right: -0,
+      duration: 2,
+      ease: "power2",
+    });
+  });
   return (
-    <div className="fixed top-[35%] -right-1 flex flex-col items-center justify-center z-50">
+    <div className="socialContainer fixed top-[40%] sn:top-[28%] -right-20 flex flex-col items-center justify-center z-50">
       <div className="socials bg-black rounded-md h-fit flex flex-col justify-around gap-2 p-2">
         {/* Linkedin Link */}
         <a

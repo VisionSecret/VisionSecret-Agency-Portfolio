@@ -3,6 +3,7 @@ import Page1Botttom from "../components/Page1Botttom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import TiltText from "../components/TiltText";
+import { Link } from "react-router-dom";
 
 const Page1 = () => {
   const [xVal, setXVal] = useState(0);
@@ -43,11 +44,13 @@ const Page1 = () => {
         id="page1-in"
         className="shadow-md sm:shadow-lg shadow-gray-600 p-4 sm:p-16 h-full w-full rounded-2xl sm:rounded-[33px] bg-cover bg-[url(/images/bgHomeImage1.jpg)] z-10 overflow-hidden"
       >
-        <img
-          src="/images/desktopLogo.png"
-          alt="brandLogo"
-          className="h-[50px] mt-6 sm:m-0 sm:h-[65px] invert"
-        />
+        <Link to={"/"}>
+          <img
+            src="/images/desktopLogo.png"
+            alt="brandLogo"
+            className="h-[50px] mt-6 sm:m-0 sm:h-[65px] invert"
+          />
+        </Link>
         <TiltText tiltRef={tiltRef} />
         <Page1Botttom />
       </div>

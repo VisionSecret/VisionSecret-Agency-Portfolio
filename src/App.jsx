@@ -1,4 +1,4 @@
-import Page1 from "./pages/page1";
+import Page1 from "./pages/Page1";
 import Lenis from "lenis";
 import "lenis/dist/lenis.css";
 import Header from "./components/Header";
