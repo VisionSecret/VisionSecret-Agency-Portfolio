@@ -45,8 +45,8 @@ const Header = () => {
       </div>
       <div className="mt-10 sm:mt-0">
         <div id="bannerCircle">
-          <img className="mb-2 sm:mb-4 h-14 w-14 sm:w-full sm:h-full" src="/images/rotateLogo1.webp" alt="" />
-          <img className="mb-2 h-14 w-14 sm:w-full sm:h-full" src="/images/rotateLogo2.webp" alt="" />
+          <img className="mb-2 sm:mb-4 h-12 w-12 sm:w-full sm:h-full" src="/images/rotateLogo1.webp" alt="" />
+          <img className="mb-2 h-12 w-12 sm:w-full sm:h-full" src="/images/rotateLogo2.webp" alt="" />
         </div>
       </div>
       {isSidebar && <Sidebar setIsSidebar={setIsSidebar} />}

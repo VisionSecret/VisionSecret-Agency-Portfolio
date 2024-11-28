@@ -4,20 +4,20 @@ import Header from "../../components/Header";
 import Social from "../../components/Social";
 import Cursor from "../Cursor";
 import AboutSection from "../../components/AboutSection";
+import { Link, useLocation } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
   const [xVal, setXVal] = useState(0);
   const [yVal, setYVal] = useState(0);
+  const location = useLocation();  // Get current location (path)
+
   const handleMouseMove = (e) => {
     setXVal(e.screenX);
     setYVal(e.screenY);
   };
 
-  useEffect(() => {
-    window.location.reload();
-  }, []);
   useGSAP(() => {
     gsap.from(".titleDiv", {
       x: -120,
@@ -41,8 +41,8 @@ const About = () => {
       <Cursor xVal={xVal} yVal={yVal} />
       <Header />
       <Social />
-      <div className="relative sm:flex h-[95vh] sm:h-screen bg-zinc-900 mx-3 sm:mx-5 rounded-3xl bg-cover bg-[url(/images/bgHomeImage1.jpg)]">
-        <div className="titleDiv w-full sm:w-1/2 pl-10 sm:pl-28 py-20 sm:py-12 flex flex-col items-start justify-center sm:mt-16 z-40">
+      <div className="relative sm:flex h-[98vh] sm:h-screen bg-zinc-900 mx-3 sm:mx-5 rounded-3xl bg-cover bg-[url(/images/bgHomeImage1.jpg)]">
+        <div className="titleDiv w-full sm:w-1/2 pl-10 sm:pl-28 pt-20 sm:py-12 flex flex-col items-start justify-center sm:mt-16 z-40">
           {/* About page text on the right side */}
           <h1 className="text-[25vw] sm:text-[14vw] font-[anzo2] font-bold leading-[13vw] mb-6">
             About Us
@@ -61,24 +61,24 @@ const About = () => {
             engaging digital experiences that elevate brands, enhance user
             satisfaction, and drive impactful results.
           </p>
-          <a
-            href="https://github.com/VisionSecret"
+          <Link
+            to="https://github.com/VisionSecret"
             target="_blank"
-            class="flex items-center gap-2 px-5 py-3 bg-zinc-800 text-white font-medium rounded-lg shadow-md hover:bg-zinc-700 transition duration-300 ease-in-out mt-8 sm:mt-10 group"
+            className="flex items-center gap-2 px-5 py-3 bg-zinc-800 text-white font-medium rounded-lg shadow-md hover:bg-zinc-700 transition duration-300 ease-in-out mt-5 sm:mt-10 group"
           >
-            <i class="ri-github-fill text-xl group-hover:animate-spin"></i>
+            <i className="ri-github-fill text-xl group-hover:animate-spin"></i>
             <span className="font-[anzo4]">View on GitHub</span>
-          </a>
+          </Link>
         </div>
-        <div className="w-full sm:w-1/2 flex items-center justify-start sm:mt-10 ml-32 sm:ml-52">
+        <div className="w-full h-full sm:w-1/2 sm:flex items-center justify-start mt-10 ml-32 sm:ml-52">
           <img
             src="/images/avatarImg.png"
             alt="About Image"
-            className="image object-cover bg-center h-96 w-fit"
+            className="image object-cover bg-center h-fit sm:h-96 w-fit"
           />
         </div>
       </div>
-      <AboutSection />
+      <AboutSection key={location.pathname} />  {/* Use the location pathname as a key */}
       <Footer />
     </div>
   );

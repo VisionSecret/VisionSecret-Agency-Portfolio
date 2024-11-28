@@ -9,6 +9,7 @@ const AboutSection = () => {
     gsap.from(".service h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".AboutWork",
@@ -20,7 +21,7 @@ const AboutSection = () => {
     });
     gsap.from(".line1", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -33,6 +34,7 @@ const AboutSection = () => {
     gsap.from(".vision h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".vision",
@@ -44,7 +46,7 @@ const AboutSection = () => {
     });
     gsap.from(".line2", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -57,6 +59,7 @@ const AboutSection = () => {
     gsap.from(".vision p", {
       opacity: 0,
       stagger: 1.2,
+      duration: 2,
       ease: "linear",
       scrollTrigger: {
         trigger: ".vision",
@@ -69,6 +72,7 @@ const AboutSection = () => {
     gsap.from(".research h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".research",
@@ -80,7 +84,7 @@ const AboutSection = () => {
     });
     gsap.from(".line3", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -93,6 +97,7 @@ const AboutSection = () => {
     gsap.from(".research p", {
       opacity: 0,
       stagger: 1.2,
+      duration: 2,
       ease: "linear",
       scrollTrigger: {
         trigger: ".research",
@@ -105,6 +110,7 @@ const AboutSection = () => {
     gsap.from(".Opportunity h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".Opportunity",
@@ -116,7 +122,7 @@ const AboutSection = () => {
     });
     gsap.from(".line4", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -129,6 +135,7 @@ const AboutSection = () => {
     gsap.from(".Opportunity p", {
       opacity: 0,
       stagger: 1.2,
+      duration: 2,
       ease: "linear",
       scrollTrigger: {
         trigger: ".Opportunity",
@@ -141,6 +148,7 @@ const AboutSection = () => {
     gsap.from(".solved h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".solved",
@@ -152,7 +160,7 @@ const AboutSection = () => {
     });
     gsap.from(".line5", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -165,6 +173,7 @@ const AboutSection = () => {
     gsap.from(".solved p", {
       opacity: 0,
       stagger: 1.2,
+      duration: 2,
       ease: "linear",
       scrollTrigger: {
         trigger: ".solved",
@@ -177,6 +186,7 @@ const AboutSection = () => {
     gsap.from(".result h1", {
       opacity: 0.1,
       stagger: 1.2,
+      duration: 1.8,
       ease: "linear",
       scrollTrigger: {
         trigger: ".result",
@@ -188,7 +198,7 @@ const AboutSection = () => {
     });
     gsap.from(".line6", {
       x: -150,
-      duration: 2,
+      duration: 3,
       opacity: 0,
       ease: "power3",
       scrollTrigger: {
@@ -201,6 +211,7 @@ const AboutSection = () => {
     gsap.from(".result p", {
       opacity: 0,
       stagger: 1.2,
+      duration: 2,
       ease: "linear",
       scrollTrigger: {
         trigger: ".result",
@@ -229,7 +240,7 @@ const AboutSection = () => {
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           MY VISION
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-sm sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-xs sm:text-lg">
           Crafting a Digital Tapestry of Elegance and Functionality
         </h1>
         <div className="line2 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>
