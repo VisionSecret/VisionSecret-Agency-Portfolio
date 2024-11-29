@@ -54,7 +54,7 @@ const Social = () => {
         </Link>
         {/* Behance Link */}
         <Link
-          to="https://www.behance.com/in/ansali251"
+          to="https://www.behance.net/ansali13"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg sm:text-2xl font-light flex items-center"

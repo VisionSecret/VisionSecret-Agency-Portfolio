@@ -223,12 +223,12 @@ const AboutSection = () => {
     });
   }, []);
   return (
-    <div className="AboutWork min-h-screen w-full p-6 bg-[#FAFAFA]">
+    <div className="AboutWork min-h-screen w-full px-5 py-6 bg-[#FAFAFA]">
       <div className="service textContent flex flex-col justify-center items-center mt-14">
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           Services
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-sm sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-[9px] sm:text-lg">
           Brand UX Design / Web Design / Brand Marketing
         </h1>
         <div className="line1 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>
@@ -240,7 +240,7 @@ const AboutSection = () => {
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           MY VISION
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-xs sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-[9px] sm:text-lg">
           Crafting a Digital Tapestry of Elegance and Functionality
         </h1>
         <div className="line2 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>
@@ -271,7 +271,7 @@ const AboutSection = () => {
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           RESEARCH
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-sm sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-[9px] sm:text-lg">
           Discovering Insights for Strategic Design
         </h1>
         <div className="line3 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>
@@ -340,7 +340,7 @@ const AboutSection = () => {
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           SOLVED
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-sm sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-[9px] sm:text-lg">
           Transforming Challenges into Design Triumphs
         </h1>
         <div className="line5 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>
@@ -363,7 +363,7 @@ const AboutSection = () => {
         <h1 className="text-center font-[anzo2] text-[10vw] sm:text-[4.3vw] text-black">
           RESULT
         </h1>
-        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-sm sm:text-lg">
+        <h1 className="mt-5 sm:mt-10 text-black font-[anzo1] text-[10px] sm:text-lg">
           A Symphony of Style and Character
         </h1>
         <div className="line6 h-0.5 w-3/4 sm:w-1/3 bg-black my-4"></div>

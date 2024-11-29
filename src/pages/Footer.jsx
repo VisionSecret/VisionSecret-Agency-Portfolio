@@ -26,11 +26,11 @@ const Footer = () => {
         <h1 className="flex flex-col sm:flex-row absolute top-16 left-5 sm:top-[7%] sm:left-20 text-[40vw] sm:text-[20vw] uppercase leading-[31vw] sm:leading-[20vw] font-[anzo2]">
           Got <br /> <span className="text-[#9B9B9B]">an</span>
         </h1>
-        <h1 className="absolute top-64 sm:top-[35%] left-5 sm:left-20 text-[42vw] sm:text-[20vw] uppercase leading-[64vw] sm:leading-[24vw] font-[anzo2]">
+        <h1 className="absolute top-[31%] sm:top-[35%] left-5 sm:left-20 text-[42vw] sm:text-[20vw] uppercase leading-[64vw] sm:leading-[24vw] font-[anzo2]">
           Idea
         </h1>
       </div>
-      <div className="centerText ml-6 sm:ml-0 w-full sm:w-[37%] absolute top-[70%] left-[60%] -translate-x-[60%] -translate-y-[70%] z-20">
+      <div className="centerText ml-4 sm:ml-0 w-full sm:w-[37%] absolute top-[70%] left-[60%] -translate-x-[60%] -translate-y-[70%] z-20">
         <div className="content flex items-center sm:justify-between w-full">
           <div id="bannerCircle" className="w-1/5 sm:w-fit ml-4 sm:ml-0">
             <img
@@ -44,7 +44,7 @@ const Footer = () => {
             <h2 className="text-xs sm:text-lg font-[anzo3] font-bold text-[#686868]">
               Global Reach, Local Impact
             </h2>
-            <h2 className="text-[10px] sm:text-sm font-[alag anzo] leading-4 sm:leading-6 underline">
+            <h2 className="text-[7px] sm:text-sm font-[alag anzo] leading-4 sm:leading-6 underline">
               Bringing Solutions to You, No Matter Where You Are.
             </h2>
             <a
